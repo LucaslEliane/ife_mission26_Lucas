@@ -1,0 +1,94 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+.content {
+	height: 775px;
+	width: 100%;
+	background-image: url("background.png");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100% auto;
+	-webkit-background-size: 100% auto;
+}
+.center {
+	height: 2px;
+	width: 2px;
+	background-color: red;
+	position: relative;
+	top: 50%;
+	left: 50%;
+	visibility: hidden;
+}
+.ship {
+	width: 2px;
+	background-color: transparent;
+	border-radius: 5px;
+	position: absolute;
+	left: 50%;
+	transform-origin: bottom;
+	visibility: hidden;
+}
+.ship .fuel {
+	left: 2px;
+}
+.ship div {
+	position: relative;
+	top: 0px;
+	left: -15px;
+	width: 60px;
+	height: 20px;
+	background-color: grey;
+	border-right: 8px solid blue;
+	border-radius: 9px;
+}
+.ship p {
+	position: absolute;
+	left: 50px;
+	font-family: 微软雅黑;
+	color: white;
+}
+.ship1 {
+	height: 25%;
+	top: 25%;
+}
+.ship2 {
+	height: 29%;
+	top: 21%;
+}
+.ship3 {
+	height: 33%;
+	top: 17%;
+}
+.ship4 {
+	height: 37%;
+	top: 13%;
+}
+
+.control_panel {
+	width: 400px;
+	height: 300px;
+	position: relative;
+	left: 40px;
+	top: 100px;
+}
+.control {
+	display: none;
+	font-family: 微软雅黑;
+	margin-top: 30px;
+}
+.control p {
+	color: white;
+}
+button {
+	margin-top: 10px;
+	width: 100px;
+	height: 30px;
+	border:2px solid white;
+	background-color: transparent;
+	color: white;
+}
+.control button {
+	width: 100px;
+	height: 30px;
+}
